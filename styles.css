@@ -1,5 +1,9 @@
+.container{
+    margin-bottom:40px ;
+}
 .orange-bg{
     background-color: #fceae8;
+    border-radius: 8px;
 }
 .carousel-item{
     padding: 20px 40px;
@@ -11,4 +15,9 @@
     background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100% );
     color:#fff;
     border: none;
+    border-radius: 8px;
+    padding: 9x 25px;
+    height: 35px;
+    width:85px;
+    cursor: pointer;
 }
