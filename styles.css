@@ -66,3 +66,16 @@
     background-color: white;
     border-top:none;
 }
+
+
+#subscribe{
+    height: 200px;
+}
+
+#sub-id{
+    margin-top: 5px;
+}
+
+footer{
+    text-align: center;
+}
