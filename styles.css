@@ -1,23 +1,66 @@
-.container{
-    margin-bottom:40px ;
+.container {
+    margin-bottom: 40px;
 }
-.orange-bg{
+
+.orange-bg {
     background-color: #fceae8;
     border-radius: 8px;
 }
-.carousel-item{
+
+.carousel-item {
     padding: 20px 40px;
 }
-.price{
+
+.price {
     color: #ff136f;
 }
-.buy-now-button{
-    background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100% );
-    color:#fff;
+
+.buy-now-button {
+    background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+    color: #fff;
     border: none;
     border-radius: 8px;
     padding: 9x 25px;
     height: 35px;
-    width:85px;
+    width: 85px;
     cursor: pointer;
+}
+
+.ct1,
+.ct2,
+.ct3 {
+    padding: 10px 20px;
+    color: white;
+    border-radius: 8px;
+}
+
+.ct1 {
+    /* background-color: orange; */
+    background: #fc4a1a;
+    /* background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a); */
+    background: linear-gradient(to left, #f7b733, #fc4a1a);
+}
+
+.ct2 {
+    /* background-color: orchid; */
+    background: #f953c6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b91d73, #f953c6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b91d73, #f953c6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+.ct3 {
+    /* background-color: blue; */
+    background: #000046;
+    /* background: -webkit-linear-gradient(to right, #1CB5E0, #000046); */
+    background: linear-gradient(to left, #1CB5E0, #000046);
+}
+
+.categories img {
+    width: 100px;
 }
